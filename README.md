@@ -46,15 +46,16 @@
 > python main.py --input-path [FILE_PATH]
 
 * select the model
-> python main.py --model [MODEL]
+> python detector.py --model [MODEL]
 
 MODEL can be xgboost, SVM  default: xgboost
 
 
 
 * e.g.
-> python main.py --input-path ./TestingBin/malware/00a2bd396600e892da75c686be60d5d13e5a34824afd76c02e8cf7257d2cf5c5 --model svm 
-
+> python main.py --input-path ./TestingBin/malware/00a2bd396600e892da75c686be60d5d13e5a34824afd76c02e8cf7257d2cf5c5 
+> cd model/
+> python detector.py --model svm
 
 
 ### Accuracy
