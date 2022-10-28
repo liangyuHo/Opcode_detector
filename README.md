@@ -53,11 +53,13 @@ MODEL can be xgboost, SVM  default: xgboost
 
 
 * e.g.
-> python main.py --input-path ./TestingBin/malware/00a2bd396600e892da75c686be60d5d13e5a34824afd76c02e8cf7257d2cf5c5
+```
+ python main.py --input-path ./TestingBin/malware/00a2bd396600e892da75c686be60d5d13e5a34824afd76c02e8cf7257d2cf5c5
  
-> cd model/
-> python detector.py --model svm
+ cd model/
 
+ python detector.py --model svm
+```
 
 ### Accuracy
 * Detect
